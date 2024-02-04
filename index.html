@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nonctu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Aaron<b>.</b></b></div>
+            <ul class="navItems">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>                
+            </div>
+        </nav>
+        <section  id="home">
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello,</span>
+                <h1>I'm Aaron, a <span class="multiText">Programmer</span></h1>
+                <p>Hey there, I'm Aaron, I am currently one of the students particapating in the annual student enterprise, I own the buisness "Nonctu Inc" and manage the production of our products and I'm the sole programmer for the company. As of now, I specialize in web development, I am in the procress of learning JS and Java, and also striving to refine my skills in HTML and CSS </p>
+                <div class="btns">
+                    <button><a class="projectss" href="#projects">Projects</a></button>
+                    <button><a href="#contact" class="projectss"></a> Hire me</button>
+                </div>
+            </div>
+            <div id="container" class="cols cols1">
+                <div id="inner" class="imgbox">
+                    <img src=""id="splash">
+                    <img src="img.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="titles">SKILLS</h1>
+        <div class="skillscontainer">  
+        <h2>HTML</h2>
+        <h1> <progress style="accent-color: #3d3d3d;" class="skillp" max="100" value="65"></progress>65%</h1>
+        </div>
+        <div class="skillscontainer">  
+            <h2>CSS</h2>
+            <h1> <progress style="accent-color: #3d3d3d;" class="skillp" max="100" value="52"></progress>52%</h1>
+            </div>
+            <div class="skillscontainer">  
+                <h2>JS</h2>
+                <h1> <progress style="accent-color: #3d3d3d;" class="skillp" max="100" value="5"></progress>5%</h1>
+            </div>
+    </section>
+    <section id="#projects">
+        <h1 class="titles">Projects</h1>
+        <div class="projectItems">
+            <div class="box">
+                <img src="NCONTU.png" alt="">
+                <h2>NONCTU INC</h2>
+            </div>
+        </div>
+        </h1>
+    </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["programmer","Project manager","designer"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 50,
+            backDelay : 10000
+        })
+    </script>
+</body>
+</html>

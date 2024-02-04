@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: aliceblue;
+}
+nav{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    z-index: 111;
+    line-height: 80px;
+    background: rgb(218, 222, 225);
+}
+.navItems{
+    display: flex;
+    
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 25px;
+    color:#3d3d3d;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .40 ease-in-out;
+}
+.navItems li:hover a{
+   color: violet;
+}
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d3d3d;
+    letter-spacing: 2.3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size: 70px;
+    color: blueviolet;
+}
+.links a{
+    font-size: 30px;
+    color:#3d3d3d;
+    margin: 25px 10px;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    margin: 0;
+    overflow: hidden;
+}
+.wrapper::after{
+    position: absolute;
+    content: '';
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: -9%;
+    top: 40%;
+    background: linear-gradient(45deg, blueviolet, pink);
+}
+.cols{
+    width: 50%;
+}
+.topline{
+    display: block;
+    position:  relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #3d3d3d;
+}
+.topline::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: blueviolet;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: 900;
+    color: #3d3d3d;
+}
+.multiText{
+    color: blueviolet;
+    text-transform: capitalize;
+    font-size: 2.3em;
+}
+p{
+    display: block;
+    width: 90%;
+    font-size: 1.2em;
+    color: #3d3d3d;
+}
+.btns{
+    width: 100%;
+    position: relative;
+    left: 150px;
+    
+}
+.projectss{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #3d3d3d;
+    padding: 8px 14px;
+    margin: 5px 5px;
+    
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+    transition: all .40s ease;
+}
+button:hover{
+    transform: translateY(-5px);
+    background-color: blueviolet;
+}
+.imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.imgbox img{
+    position:  relative;
+    height: 100%;
+    width: calc(130% - 80px);
+    right: 50px;
+    top: -60px;
+    transition:  all .40s ease;
+   
+}
+.skillscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    transition: all .60s ease-in-out;
+}
+.skillscontainer h1{
+    outline: none;
+    border-radius: 50px;
+    width: 50%;
+    border:#3d3d3d;
+    cursor: pointer;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #3d3d3d;
+    padding: 8px 14px;
+    margin: 5px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+    transition: all .40s ease;
+  
+}
+.skillp{
+    width: 100%;
+    accent-color: violet;
+}
+section{
+    padding: 50px 0;
+}
+.skillscontainer:hover{
+    scale: 1.1;
+}
+.titles{
+    font-weight: 900;
+    font-size: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    transition: all .40s ease;
+    text-transform: uppercase;
+}
+.titles:hover{
+    scale: 1.1;
+}
+.projectItems{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 2rem;
+    
+}
+.box{
+    padding: 0px 10px 5px 10px;
+    background:transparent;
+    box-shadow:  5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border-radius: 5px;
+    position: relative;
+    transition:  all .35s ease;
+}
+.box img{
+    width: 50;
+    height: auto;
+    transition: all .40s ease;
+}
+.bxx h2{
+    font-size:15px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
