@@ -6,11 +6,27 @@
     <title>Nonctu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon" href="banner.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <nav>
+        <div class="bx bx-menu" id = "menu-icon"></div>
+        <div class="">
+        <nav class="">
             <div class="logo">Aaron<b>.</b></b></div>
+            
             <ul class="navItems">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -18,16 +34,17 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>                
+                <a href="https://www.instagram.com/nonctuinc/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/nonctinc"><i class="fab fa-twitter"></i></a>                
             </div>
+        </div>
         </nav>
         <section  id="home">
         <div class="wrapper">
             <div class="cols cols0">
                 <span class="topline">Hello,</span>
                 <h1>I'm Aaron, a <span class="multiText">Programmer</span></h1>
-                <p>Hey there, I'm Aaron, I am currently one of the students particapating in the annual student enterprise, I own the buisness "Nonctu Inc" and manage the production of our products and I'm the sole programmer for the company. As of now, I specialize in web development, I am in the procress of learning JS and Java, and also striving to refine my skills in HTML and CSS </p>
+                <p class="importantp">Hey there, I'm Aaron, I am currently one of the students particapating in the annual student enterprise, I own the buisness "Nonctu Inc" and manage the production of our products and I'm the sole programmer for the company. As of now, I specialize in web development, I am in the procress of learning JS and Java, and also striving to refine my skills in HTML and CSS </p>
                 <div class="btns">
                     <button><a class="projectss" href="#projects">Projects</a></button>
                     <button><a href="#contact" class="projectss"></a> Hire me</button>
@@ -44,29 +61,84 @@
 
     <section id="skills">
         <h1 class="titles">SKILLS</h1>
+   
+            
+        
         <div class="skillscontainer">  
         <h2>HTML</h2>
-        <h1> <progress style="accent-color: #3d3d3d;" class="skillp" max="100" value="65"></progress>65%</h1>
+        <h1> <progress style="background-color: orange;" class="skillp" max="100" value="65"></progress>65%</h1><img style="width: 110px;" src="html.png ">
         </div>
         <div class="skillscontainer">  
             <h2>CSS</h2>
-            <h1> <progress style="accent-color: #3d3d3d;" class="skillp" max="100" value="52"></progress>52%</h1>
+            <h1> <progress  class="skillp" max="100" value="52"></progress>52%</h1><img style="width: 110px;" src="css.png">
             </div>
             <div class="skillscontainer">  
                 <h2>JS</h2>
-                <h1> <progress style="accent-color: #3d3d3d;" class="skillp" max="100" value="5"></progress>5%</h1>
+                <h1> <progress style="accent-color: #3d3d3d;" class="skillp" max="100" value="5"></progress>5%</h1><img style="width: 70px;" src="js.png">
             </div>
     </section>
-    <section id="#projects">
+    <section id="projects">
         <h1 class="titles">Projects</h1>
-        <div class="projectItems">
-            <div class="box">
+        <div class="projectAbout">
+            <p>
+                Below, i have displayed my two most notable projects, but i will also explain some minor projects later if I feel they are significant enough.
+                the projects i have displayed are <b>CanadaMC</b> and <b>Nonctu INC</b>, there is littles bit as information as well as my association with the 
+                projects
+            </p>
+        </div>
+        <div  class="projectItems">
+            <div  class="box">
+                <h2> Nonctu INC </h2>
+                
+                <p class="itemAbout">Nonctu INC is a company that  you can pay to get a 
+                    completely custom website for a buisness, portfolio etc, Nonctu INC is 
+                    a newer company and we are always striving to deliver the best product 
+                    for you, Nonctu INC
+                    is currently competing in the annual student enterprise
+                    we are currently as far as the county finals, if you want to see how we do 
+                    make sure to tune into the student enterprise twitter on decemer 23rd and look
+                    out for the "Thurles County Finals" over at the TUS. 
+                    As far as my relations with Nonctu INC, i am (as stated before), the sole
+                    programmer for the company, meaning i programme and design all of the websites
+                    for the company, I was also the one who intially founded the company, before i went on 
+                    and brought more people on to help me.
+                </p>
                 <img src="NCONTU.png" alt="">
-                <h2>NONCTU INC</h2>
             </div>
         </div>
+        <div  class="projectItems">
+            <div class="box">
+                <h2>CanadaMC</h2>
+                <img src="CANADA.png" alt="">
+                <p class="itemAbout">
+                    CanadaMC is a minecraft buisness, where you can order customizable or pre-built plugins for 
+                    your server, the server is currently undergoing maitenance and is not delivering any orders
+                    but make sure you look out for the re-release of CanadaMC if you are looking for a custom plugin
+                    for your minecraft server or even world. As far as my association with CanadaMC, I was a former 
+                    executive of HR (human resources), meaning i managed both the junior and senior staff team. Since then
+                    i have left CanadaMC, but contuine to work as a member of the junior staff team.
+                </p>
+            </div>
+        </div>
+       
+
         </h1>
     </section>
+    <section class="contact" id="contact">
+            <h1 class="titles">Contact / Hire me</h1>
+            <div class="contentAbout">
+                <p>
+                    Interested in reaching out to me? Want to learn more about my work? Or simply want to hire me for a project? Well, if so, go ahead and shoot me an email over at
+                    <b>nonctu@gmail.com</b>
+                </p>
+            </div>
+            <div class="contentAbout">
+                <img src="phonething.png" alt="">
+                <h2><a href="mailto:nonctu@gmail.com">EMAIL ME</a><a href="mailto:nonctu:@gmail.com">(Click me!)</a></h2>
+            </div>
+            
+    </section>
+    
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script>
     <script>
@@ -78,5 +150,33 @@
             backDelay : 10000
         })
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+    <script src="Script.js"></script>
 </body>
 </html>
